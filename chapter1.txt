@@ -1,4 +1,4 @@
-Homelander likes to drink milk, he's fond of it.
+Homelander likes to drink milk, cuz he's an alien
 Something's very odd and creepy about his thirst for milk.
  
  git init - for working directory
@@ -8,4 +8,8 @@ Something's very odd and creepy about his thirst for milk.
  git diff "file name" - see the difference between unsaved changes and last saved version of the file.
  git log
  git checkout "file name" - to roll back into previous last saved version of the file.
+  
+
+  pushing the files in remote repository wasn't working,as the branch was `master` instead of `main, hence used git checkout -b main, 
+  for switching to main , the  git add. and lastly git push origin main.
   
